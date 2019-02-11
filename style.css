@@ -3,46 +3,33 @@ body{
 }
 
 .headota{
-    display: inline-flex;
-    width: 100%;
-    align-items: flex-end;
+    display: inline-flex;width: 100%;align-items: flex-end;
     box-shadow:  0px 3px 5px #888888;
 }
 
 .container1{
-  display:inline-grid;
-  justify-content: center; 
+  display:inline-grid;justify-content: center; 
 }
 
 #myTitle{
-  display:inline-flex;
-  justify-content: center;
+  display:inline-flex;justify-content: center;
 }
 
 .headota img{
-    width:40%;
-    height:auto;
-    padding:8px;
+    width:40%;height:auto;padding:8px;
 }
 
 .unito{
-    width:auto;
-    align-items: center;
-    display:flex;
+    width:auto;align-items: center;display:flex;
 }
 
 .lista{
-    display: inline-flex;
-    width:100%;
-    justify-content: flex-end;
+    display: inline-flex;width:100%;justify-content: flex-end;
 }
 .lista a{
     text-decoration: none;
-    display: inline-flex;
-    justify-content: space-between;
-    padding:0px 20px;
-    font-family: 'Pompiere', cursive,'Arial';
-    font-size: 24px;
+    display: inline-flex;justify-content: space-between;padding:0px 20px;
+    font-family: 'Pompiere', cursive,'Arial';font-size: 24px;
     transition: all .2s ease-in-out;
 }
 
@@ -52,8 +39,7 @@ body{
 }
 
 .titles{
-  font-family: 'Roboto Condensed', sans-serif,'Arial';
-  font-size: 20px;
+  font-family: 'Roboto Condensed', sans-serif,'Arial';font-size: 20px;
   margin:30px 0px 5px 0px;
 }
 
