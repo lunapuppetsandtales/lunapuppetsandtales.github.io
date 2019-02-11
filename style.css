@@ -6,8 +6,17 @@ body{
     display: inline-flex;
     width: 100%;
     align-items: flex-end;
-    border-bottom: 1px solid black;
     box-shadow:  0px 3px 5px #888888;
+}
+
+.container1{
+  display:inline-grid;
+  justify-content: center; 
+}
+
+#myTitle{
+  display:inline-flex;
+  justify-content: center;
 }
 
 .headota img{
@@ -25,27 +34,118 @@ body{
 .lista{
     display: inline-flex;
     width:100%;
-    justify-content: space-around;
+    justify-content: flex-end;
 }
 .lista a{
     text-decoration: none;
     display: inline-flex;
     justify-content: space-between;
     padding:0px 20px;
-    font-family: 'Caviar Dreams','Arial';
-    font-size: 20px;
+    font-family: 'Pompiere', cursive,'Arial';
+    font-size: 24px;
     transition: all .2s ease-in-out;
 }
 
 .lista a:hover{
     background-color:#C2D139;
-    border-radius: 5px 5px 0px 0px;
+    border-radius: 8px 8px 0px 0px;
+}
+
+.titles{
+  font-family: 'Roboto Condensed', sans-serif,'Arial';
+  font-size: 20px;
+  margin:30px 0px 5px 0px;
 }
 
 @media only screen and (max-width: 560px){
     .headota{display:block;}
     .unito{justify-content: center;}
-    .lista a{padding:0px 3px;}
+    .lista{justify-content:center;}
+    .lista a{padding:0px 15px;font-size:20px;}
     }
 
+}
+
+/* Slideshow container */
+.slideshow {
+  max-width: 1000px;
+  position: absolute;
+  margin: auto;
+  overflow: hidden;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 58%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  transform:translateY(-50%);
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+.elfoter{
+  display: block;
+  text-align: center;
 }
