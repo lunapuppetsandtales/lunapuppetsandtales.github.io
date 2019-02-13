@@ -55,7 +55,7 @@ body{
 /* Slideshow container */
 .slideshow {
   max-width: 1000px;
-  position: absolute;
+  position: relative;
   margin: auto;
 }
 
