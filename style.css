@@ -1,5 +1,6 @@
 body{
     margin:3px;
+    height: 100%;
 }
 
 .headota{
@@ -8,9 +9,10 @@ body{
 }
 
 
-#myTitle{
+.myTitle{
   display:inline-flex;justify-content: center;width: 100%;
 }
+
 
 .headota img{
     width:40%;height:auto;padding:8px;
@@ -36,7 +38,7 @@ body{
 }
 
 .titles{
-  font-family: 'Roboto Condensed', sans-serif,'Arial';font-size: 20px;
+  font-family: 'Roboto Condensed', sans-serif,'Arial';font-size: 35px;
   margin:30px 0px 5px 0px;
 }
 
@@ -135,6 +137,15 @@ body{
   to {opacity: 1}
 }
 
+
+.parallax{
+  background-image:url('images/landscape1.jpg');
+  min-height: 300px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .elfoter{
   display: block;
   text-align: center;
