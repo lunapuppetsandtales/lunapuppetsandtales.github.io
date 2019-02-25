@@ -38,11 +38,11 @@ body{
   margin:30px 0px 5px 0px;
 }
 
-@media only screen and (max-width: 560px){
+@media only screen and (max-width: 360px){
     .headota{display:block;}
     .unito{justify-content: center;}
     .lista{justify-content:center;}
-    .lista a{padding:0px 15px;font-size: 45px;}
+    .lista a{padding:0px 15px;font-size: 30px;}
     }
 
 }
@@ -52,7 +52,7 @@ body{
 }
 /* Slideshow container */
 .slideshow {
-  position: relative;max-width: 1000px;min-width: 250px;margin: auto;
+  position: relative;max-width: 800px;min-width: 250px;margin: auto;
 }
 
 /* Hide the images by default */
