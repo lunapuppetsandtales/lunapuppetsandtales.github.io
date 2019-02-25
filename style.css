@@ -42,7 +42,7 @@ body{
     .headota{display:block;}
     .unito{justify-content: center;}
     .lista{justify-content:center;}
-    .lista a{padding:0px 15px;}
+    .lista a{padding:0px 15px;font-size: 45px;}
     }
 
 }

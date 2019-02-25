@@ -1,5 +1,5 @@
 body{
-	font-size: 22px;
+  font-size:40px;
 	margin:2px 2px;
 }
 
@@ -30,7 +30,7 @@ body{
 }
 
 .button {
-  border:2px;
+  border:0;
   width:100px;
   height:50px;
   border-radius: 0.3rem;
